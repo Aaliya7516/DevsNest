@@ -1,1 +1,1 @@
-## Folder for Devsnest Web Development THAs
+## Directory for Devsnest Web Development THAs
