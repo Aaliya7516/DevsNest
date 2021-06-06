@@ -1,0 +1,51 @@
+.outer-border{
+    border: solid lightgray 4px;
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    margin: auto;
+    margin-top: 70px;
+}
+.middle-border{
+    height: 380px;
+    border: solid red 60px;
+    width: 380px;
+    border-radius: 247px;
+}
+.inner-border{
+    height: 374px;
+    width: 374px;
+    border: solid white 3px;
+    border-radius: 188px;
+    box-shadow: 0 0 6px 5px lightgrey inset;
+}
+.hour{
+    position: relative;
+    top: 190px;
+    left: 190px;
+    background: black;
+    height: 5px;
+    width: 100px;
+    transform: rotate(360deg);
+    transform-origin: left;
+}
+.minute{
+    position: relative;
+    top: 185px;
+    left: 190px;
+    background: black;
+    height: 5px;
+    width: 130px;
+    transform: rotate(225deg);
+    transform-origin: left;
+}
+.second{
+    position: relative;
+    top: 180px;
+    left: 190px;
+    background: black;
+    height: 5px;
+    width: 160px;
+    transform: rotate(104deg);
+    transform-origin: left;
+}
