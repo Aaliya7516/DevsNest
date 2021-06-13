@@ -1,0 +1,47 @@
+body{
+    font-family: cursive;
+}
+#first{
+    width: 43%;
+    height: 50px;
+    border-width: 2px;
+    border: solid antiquewhite;
+    border-radius: 8px;
+    font-size: 20px;
+    color: saddlebrown;
+    padding: 12px;
+}
+#second{
+    width: 43%;
+    height: 50px;
+    border-width: 2px;
+    border: solid antiquewhite;
+    border-radius: 8px;
+    font-size: 20px;
+    float: right;
+    color: saddlebrown;
+    padding: 12px;
+}
+#result{
+    height: 50px;
+    border-width: 2px;
+    border: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    font-size: 20px;
+    color: saddlebrown;
+    padding: 12px;
+}
+.button{
+    width: 22%;
+    margin: 1%;
+    background: aliceblue;
+    border: none;
+    border-radius: 35px;
+    height: 55px;
+    font-size: 20px;
+    color: black;
+}
+.button:hover{
+    border:solid #95deff;
+}
