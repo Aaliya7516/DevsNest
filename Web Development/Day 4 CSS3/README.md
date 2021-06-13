@@ -1,3 +1,3 @@
-### Live Demo of the Analog Clock
-<br>
-![Video Of Clock](./Live_demo.gif)
+### Live Demo of the Analog Clock <br>
+
+>![Video Of Clock](./Live_demo.gif)
