@@ -1,7 +1,6 @@
-### Tech Stack <br><br>
+### Tech Stack <br>
 >HTML<br>
 >CSS<br>
 >JavaScript<br>
-###<br>
-### Short demo video clip of Calculator <br><br>
+### Short demo video clip of Calculator <br>
 >![Live Demo](calc.gif)
