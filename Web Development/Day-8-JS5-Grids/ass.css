@@ -1,0 +1,28 @@
+#main{
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    background-color: rgb(148, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(20,auto);
+    grid-template-rows: repeat(20,auto);
+}
+.grid{
+    border: solid rgb(255, 255, 255) 1px;
+}
+.red{
+    background-color: rgb(252, 93, 93);
+}
+.white{
+    background-color: white;
+}
+
+/* body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    top: 2px;
+    bottom: 2px;
+} */
