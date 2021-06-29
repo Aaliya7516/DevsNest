@@ -4,5 +4,5 @@
 >HTML<br>
 >CSS<br>
 >JavaScript<br>
-### Short demo video clip of Calculator <br>
+### Short demo video clip<br>
 >![Live Demo](game.gif)
