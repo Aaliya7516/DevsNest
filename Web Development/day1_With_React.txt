@@ -1,0 +1,2 @@
+we can add features as different function in .jsx file and call
+ in different pages according to our need

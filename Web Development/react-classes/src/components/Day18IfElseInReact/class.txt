@@ -1,0 +1,9 @@
+camel case in inline style 
+ex: style=({backgroundColor: yellow;})
+
+in inline CSS we won't be able to use medial query and animation. non-readable. perfomance slow. non-reusable.
+
+
+style={{color: {title === 'Title1'? 'aqua': 'magenta'} }}
+
+className={title === 'T1'? 'class1': 'class2'}
