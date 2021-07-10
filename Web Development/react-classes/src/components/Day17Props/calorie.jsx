@@ -47,13 +47,11 @@ const CalChart = () =>{
             <h1 className={style.calHeading}>Calorie meter</h1>
             <div className={style.calContainer}>
                 <div className={style.calScroll}>
-                    <Card name={food[0].name} cal={food[0].cal} />
-                    <Card name={food[1].name} cal={food[1].cal} />
-                    <Card name={food[2].name} cal={food[2].cal} />
-                    <Card name={food[3].name} cal={food[3].cal} />
-                    <Card name={food[4].name} cal={food[4].cal} />
-                    <Card name={food[5].name} cal={food[5].cal} />
-                    <Card name={food[6].name} cal={food[6].cal} />
+                    {
+                        food.map(ele  => {
+                            return <Card name={ele.name} cal={ele.cal} />
+                        })
+                    }
                 </div>
             </div>
         </div>
