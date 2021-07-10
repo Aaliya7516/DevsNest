@@ -1,0 +1,20 @@
+.boardGrid {
+    height: 20px;
+    width: 20px;
+}
+.boardGrid:nth-child(even) {
+    background-color: white
+}
+.boardGrid:nth-child(odd) {
+    background-color: black;
+}
+.boardBorder {
+    border: 20px solid;
+    padding: 1px;
+    display: grid;
+    margin: auto;
+    width: fit-content;
+    grid-template-rows: repeat(8, auto);
+    grid-template-columns: repeat(8, auto);
+}
+
