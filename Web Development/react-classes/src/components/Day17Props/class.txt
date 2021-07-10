@@ -1,0 +1,19 @@
+rjx  - className
+html - class
+rjx  - htmlFor in 'label'
+html - for in 'label'
+rjx  - cannot return 2 elements; need to include them inside div
+html - can pass multiple elements
+
+----------------------------------------
+
+const page = {
+    title: 'readme',
+    para: 'uiuebefbef  hgiuib ib iu gu ds.'
+};
+<div>{page.title}</div>
+<div>{page.para}</div>
+
+----------------------------------------
+
+props:  values passed to functions of .rjx

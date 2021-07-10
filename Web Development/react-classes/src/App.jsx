@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Day16a from "./components/Day16FirstReact/card";
 import Day16b from "./components/Day16FirstReact/board";
-import Day18a from './components/Day18IfElseInReact/board'
-// import Day17 from "./components/Day17";
+import Day17a from "./components/Day17Props/calorie";
+import Day18a from './components/Day18IfElseInReact/board';
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
         <Route exact path="/day16b">
           <Day16b />
         </Route>
-        {/* <Route exact path="/day17">
-          <Day17 />
-        </Route> */}
+        <Route exact path="/day17a">
+          <Day17a />
+        </Route>
         <Route exact path="/day18a">
           <Day18a />
         </Route>
