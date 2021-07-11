@@ -29,15 +29,18 @@ class Button extends React.Component{
 
 const BtnSet = () =>{
     return (
-        <div className={style.btnContainer}>
-            <h1 className={style.btnHeading}>Score of Each Player</h1> 
-            <div className={style.btnSet}>
-                <Button player="1" />
-                <Button player="2" />
-                <Button player="3" />
-                <Button player="4" />
-            </div>
-        </div> 
+        <div className={style.btnSuperContainer}>
+            <div className={style.btnContainer}>
+                <h1 className={style.btnHeading}>Score of Each Player</h1> 
+                <div className={style.btnSet}>
+                    <Button player="1" />
+                    <Button player="2" />
+                    <Button player="3" />
+                    <Button player="4" />
+                </div>
+            </div> 
+        </div>
+
     )
 }
 export default BtnSet;

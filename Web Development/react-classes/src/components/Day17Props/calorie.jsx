@@ -2,11 +2,6 @@ import React from 'react';
 import style from './style.module.css';
 
 const Card =(prop) =>{
-    console.log( "hgehef");
-    // var page = {
-    //         name: "Pizza",
-    //         cal: "56"
-    //     }
     return(
         <div className = {style.calCard}>
             <h1 className={style.name}>{prop.name}</h1>

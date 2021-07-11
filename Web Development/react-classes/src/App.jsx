@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import style from './app.css';
 import Day15 from "./components/Day15HelloReact/hello";
 import Day16a from "./components/Day16FirstReact/card";
 import Day16b from "./components/Day16FirstReact/board";
