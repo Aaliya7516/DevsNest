@@ -3,6 +3,7 @@ import Day16a from "./components/Day16FirstReact/card";
 import Day16b from "./components/Day16FirstReact/board";
 import Day17a from "./components/Day17Props/calorie";
 import Day18a from './components/Day18IfElseInReact/board';
+import Day18b from './components/Day18IfElseInReact/calorieRedGreen';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/day18a">
           <Day18a />
+        </Route>
+        <Route exact path="/day18b">
+          <Day18b />
         </Route>
       </Switch>
     </Router>
