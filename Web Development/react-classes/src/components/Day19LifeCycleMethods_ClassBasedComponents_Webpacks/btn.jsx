@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './style.module.css';
 
 class Button extends React.Component{
     constructor(){
@@ -18,19 +19,24 @@ class Button extends React.Component{
 
     render(){
         return (
-            <button onClick={this.handleCount}> {this.state.count} </button>
+            <div>
+            <button className={style.btn} onClick={this.handleCount}> {this.state.count} </button>
+            <p className={style.btnDesc} >{this.props.player}</p>
+            </div>
         )
     }
 }
 
 const BtnSet = () =>{
     return (
-        <div>
-            <p>There are 4 counter component instances that each manage their own state.</p> 
-            <Button />   
-            <Button />   
-            <Button />   
-            <Button />   
+        <div className={style.btnContainer}>
+            <h1 className={style.btnHeading}>Score of Each Player</h1> 
+            <div className={style.btnSet}>
+                <Button player="1" />
+                <Button player="2" />
+                <Button player="3" />
+                <Button player="4" />
+            </div>
         </div> 
     )
 }
