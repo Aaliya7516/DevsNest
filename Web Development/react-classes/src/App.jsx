@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Day15 from "./components/Day15HelloReact/hello";
 import Day16a from "./components/Day16FirstReact/card";
 import Day16b from "./components/Day16FirstReact/board";
 import Day17a from "./components/Day17Props/calorie";
@@ -10,6 +11,9 @@ function App() {
   return (
     <Router >
       <Switch>
+      <Route exact path="/day15">
+          <Day15 />
+        </Route>
         <Route exact path="/day16a">
           <Day16a />
         </Route>
