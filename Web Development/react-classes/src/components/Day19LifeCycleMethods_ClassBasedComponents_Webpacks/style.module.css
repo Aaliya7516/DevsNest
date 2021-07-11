@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #64deff;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #afecfc;
 }
 .btnContainer{
     width: 80vw;
@@ -22,6 +26,7 @@ body{
 .btnSet{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 30px auto;
     max-width: fit-content;
 }
