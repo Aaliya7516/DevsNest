@@ -21,7 +21,8 @@ class Button extends React.Component{
         return (
             <div>
             <button className={style.btn} onClick={this.handleCount}> {this.state.count} </button>
-            <p className={style.btnDesc} >{this.props.player}</p>
+             <p className={style.btnDesc} >{this.props.player}</p> 
+             {/* Props and states are passed by default to the class as 'this.props' and 'this.states' */}
             </div>
         )
     }
