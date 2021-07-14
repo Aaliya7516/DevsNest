@@ -22,9 +22,9 @@ function App(props) {
     const [foodName, setFoodName] = useState("");
     const [foodCal, setFoodCal] = useState("");
     const [cals, setCals] = useState([["Pizza", "220"], ['burger','300']]);
-    useEffact(()=>{
+    // useEffact(()=>{
         // setCals([]);
-    }, []);
+    // }, []);
     return (
         <div>
             <h1 className={style.calHeading}>Calorie meter</h1>
