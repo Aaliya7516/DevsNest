@@ -21,7 +21,15 @@ const Cal = (props) => {
 function App(props) {
     const [foodName, setFoodName] = useState("");
     const [foodCal, setFoodCal] = useState("");
-    const [cals, setCals] = useState([["Pizza", "220"], ['burger','300']]);
+    const [cals, setCals] = useState([
+        ["Pizza", "220"], 
+        ['burger','300'],
+        ['Coke','500'],
+        ['Browne','180'],
+        ['Fried Rice','90'],
+        ['Lassania','200'],
+        ['Pani Puri', '10']
+    ]);
     // useEffact(()=>{
         // setCals([]);
     // }, []);
