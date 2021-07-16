@@ -19,7 +19,7 @@ function App() {
       {meme === null ? (
         <Template templates = {templates} setMeme={setMeme}/>
       ) : (
-        <Meme meme={meme} />
+        <Meme meme={meme} setMeme={setMeme} />
       ) }
       
     </div>
