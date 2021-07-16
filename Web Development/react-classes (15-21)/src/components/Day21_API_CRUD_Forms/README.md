@@ -12,6 +12,7 @@ const Api = () =>{
         const data_json = await response.json();
         // const data_text = await response.text();
         console.log(data_json);
+        // console.log(data_text);
     }
     return (
         <h1>API Data </h1>
@@ -27,4 +28,6 @@ const [data, setData] = useState([]);
 //calling API data
 setData(data_json);
 ```
-<br><br>
+<br>
+ 
+<br>

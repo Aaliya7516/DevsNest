@@ -8,6 +8,7 @@ import Day18a from './components/Day18IfElseInReact/board';
 import Day18b from './components/Day18IfElseInReact/calorieRedGreen';
 import Day19a from './components/Day19LifeCycleMethods_ClassBasedComponents_Webpacks/btn';
 import Day20a from './components/Day20Hooks/calList';
+import Day21a from './components/Day21_API_CRUD_Forms/calList';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
         </Route>
         <Route exact path="/day20a">
           <Day20a />
+        </Route>
+        <Route exact path="/day21a">
+          <Day21a />
         </Route>
       </Switch>
     </Router>

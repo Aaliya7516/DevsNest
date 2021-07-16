@@ -42,7 +42,7 @@
 }
 
 .calScroll {
-    height: 70vh;
+    height: 58vh;
     overflow-y: scroll;
 }
 .calInputFood, .calInputCal{
