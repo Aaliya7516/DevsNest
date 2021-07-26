@@ -26,7 +26,7 @@ const Todos = (props) => {
             </ul>
             <br /><br />
             <div>
-                <img src={images} style={{width:"100%"}} alt={query} />
+                <img src={images} style={{height:"60vh"}} alt={query} />
             </div>
         </div>
     )
