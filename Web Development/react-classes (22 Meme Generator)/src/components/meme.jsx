@@ -18,28 +18,66 @@ const Meme = (({meme, setMeme}) => {
         .then((data) => { setMeme({...meme, url: data.data.url}) }  )
     }
     return (
-        <div className="meme">
+        <div className=" text-center mt-7">
             <div>
-                <img src={meme.url} alt="" />
+                <img
+                    className="h-96 w-auto"
+                    src={meme.url} alt="" />
             </div>
             <div className="inputs">
                 {[...Array(meme.box_count)].map((el, index) =>(
                     <input 
                         key={index} 
                         type="text" 
-                        className="input" 
+                        className="input
+                        p-3 
+                        m-3
+                        border-b-2
+                        border-transparent 
+                        focus:outline-none
+                        focus:border-purple-600 
+                        rounded" 
                         placeholder={`Add Caption ${index+1}`} 
                         onChange={(e) =>{
                             const newBoxes = form.boxes;
                             newBoxes[index] = { text: e.target.value};
-                            setForm({ ...form, boxes: newBoxes })
+                            setForm({ ...form, boxes: newBoxes });
                         }}
                     />
                 ))}
             </div>
-            <div className="btn">
-                <button onClick={generateMeme}>Generate Meme</button>
-                <button onClick={(()=> setMeme(null))}>Choose template</button>
+            <div>
+                { form.boxes.length === meme.box_count ?
+                <button className="bg-white
+                 hover:bg-purple-600 
+                 hover:bg-opacity-75 
+                 text-purple-600 
+                 font-semibold 
+                 hover:text-white 
+                 py-2 
+                 px-4 
+                 border 
+                 border-purple-600 
+                 hover:border-transparent 
+                 rounded 
+                 p-3 
+                 m-3" onClick={generateMeme}>Generate Meme</button>
+                 : null
+                }
+                <button className="bg-white
+                 hover:bg-purple-600 
+                 hover:bg-opacity-75 
+                 text-purple-600 
+                 font-semibold 
+                 hover:text-white 
+                 py-2 
+                 px-4 
+                 border 
+                 border-purple-600 
+                 hover:border-transparent 
+                 rounded 
+                 p-3 
+                 m-3" onClick={(()=> setMeme(null))}>Choose template</button>
             </div>
         </div>
     );
