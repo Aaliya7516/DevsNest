@@ -1,5 +1,4 @@
-> Deployed link: https://tha-15-21.netlify.app/
-<hr>
+### Deployed link: https://tha-15-21.netlify.app/
 <hr>
 
 # Getting Started with Create React App
