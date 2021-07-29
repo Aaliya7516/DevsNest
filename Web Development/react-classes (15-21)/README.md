@@ -1,4 +1,4 @@
-> Deployed link: https://tha-15-21.netlify.app/day20a
+> Deployed link: https://tha-15-21.netlify.app/
 <hr>
 <hr>
 
