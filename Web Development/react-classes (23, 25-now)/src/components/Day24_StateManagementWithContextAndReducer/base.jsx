@@ -18,13 +18,13 @@ const App = () => {
                 </ContextOne.Provider>
                 <Switch>
                     <Route exact path="/">
-                        <ContextTwo.Provider 
-                        value={{ Auth, BtnVal, setBtnVal, setAuth }}>
-                            <Home 
-                            setAuth={setAuth} 
-                            Auth={Auth} 
-                            BtnVal={BtnVal} 
-                            setBtnVal={setBtnVal} />
+                        <ContextTwo.Provider
+                            value={{ Auth, BtnVal, setBtnVal, setAuth }}>
+                            <Home
+                                setAuth={setAuth}
+                                Auth={Auth}
+                                BtnVal={BtnVal}
+                                setBtnVal={setBtnVal} />
                         </ContextTwo.Provider>
                     </Route>
                     <Route path="/about">
