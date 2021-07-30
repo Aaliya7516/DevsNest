@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import style from './app.css';
 import Day23 from "./components/Day23CustomHooks_ReactRouterDom/hooks";
+import Day24 from "./components/Day24_StateManagementWithContextAndReducer/base";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
             {/* <li><Link to="/day18a/">day18a</Link></li> */}
             {/* <li><Link to="/day18b">day18b</Link></li> */}
             {/* <li><Link to="/day19a">day19a</Link></li> */}
-            {/* <li><Link to="/day20a">day20a</Link></li> */}
             <li><Link to="/day23">Day23</Link></li>
+            <li><Link to="/day24">day24</Link></li>
           </ul>
         </nav>
 
@@ -30,8 +31,8 @@ function App() {
         {/* <Route exact path="/day18a"><Day18a /></Route> */}
         {/* <Route exact path="/day18b"><Day18b /></Route> */}
         {/* <Route exact path="/day19a"><Day19a /></Route> */}
-        {/* <Route exact path="/day20a"><Day20a /></Route> */}
         <Route exact path="/day23"><Day23 /></Route>
+        <Route exact path="/day24"><Day24 /></Route>
       </Switch>
       </div>
 
