@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #c4efff;
+}
+.template{
+  border: 10px solid transparent;
+}
+.template .image{
+  height: 33.333vw;
+}
