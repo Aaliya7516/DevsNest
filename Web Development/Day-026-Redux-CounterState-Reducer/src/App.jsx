@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import style from './app.css';
-import Day23 from "./components/Day23CustomHooks_ReactRouterDom/hooks";
-import Day24 from "./components/Day24_StateManagementWithContextAndReducer/base";
+import Day26 from "./components/Day26-reducer/App";
+// import Day27 from "./components/Day27";
 
 function App() {
   return (
@@ -11,14 +11,14 @@ function App() {
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/day23">Day23</Link></li>
-            <li><Link to="/day24">day24</Link></li>
+            <li><Link to="/day26">Day26</Link></li>
+            {/* <li><Link to="/day27">day27</Link></li> */}
           </ul>
         </nav>
 
       <Switch>
-        <Route exact path="/day23"><Day23 /></Route>
-        <Route exact path="/day24"><Day24 /></Route>
+        <Route exact path="/day26"><Day26 /></Route>
+        {/* <Route exact path="/day27"><Day27 /></Route> */}
       </Switch>
       </div>
 
