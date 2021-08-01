@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import style from './app.css';
-import Day26 from "./components/Day26-reducer/App";
+import Day26 from "./components/Day26-class-reducer/App";
 // import Day27 from "./components/Day27";
 
 function App() {
