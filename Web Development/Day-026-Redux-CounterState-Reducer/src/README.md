@@ -1,3 +1,5 @@
+## >>>>>>>> File Structure <<<<<<<<
+
 actions folder mai index.js mai function define karke usme use hone wale types ko define kar dete hai
 
 ```js
