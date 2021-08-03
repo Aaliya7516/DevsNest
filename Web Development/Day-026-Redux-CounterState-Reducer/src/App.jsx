@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import style from './app.css';
-import Day26 from "./components/Day26-class-reducer/App";
+import Day26a from "./components/Day26-class-reducer/App";
+import Day26b from "./components/Day26-THA-LoginPage/App";
 // import Day27 from "./components/Day27";
 
 function App() {
@@ -11,13 +12,15 @@ function App() {
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/day26">Day26</Link></li>
+            <li><Link to="/day26a">Day26a</Link></li>
+            <li><Link to="/day26b">Day26b</Link></li>
             {/* <li><Link to="/day27">day27</Link></li> */}
           </ul>
         </nav>
 
       <Switch>
-        <Route exact path="/day26"><Day26 /></Route>
+        <Route exact path="/day26a"><Day26a /></Route>
+        <Route exact path="/day26b"><Day26b /></Route>
         {/* <Route exact path="/day27"><Day27 /></Route> */}
       </Switch>
       </div>
