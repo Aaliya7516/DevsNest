@@ -1,11 +1,7 @@
-const inputReducer = (text = '', action) => {
-    if (action.type === "NAME") { 
-        text = action.name;
-        console.log(text) }
-    else if (action.type === "EMAIL") { 
-        text = action.email;
-        console.log(text) }
-    return text;
+const inputReducer = (data = {name : "", email : "" }, action) => {
+    if (action.type === "NAME") { data.name = action.name }
+    else if (action.type === "EMAIL") { data.email = action.email }
+    return data;
 }
 
 export default inputReducer;
