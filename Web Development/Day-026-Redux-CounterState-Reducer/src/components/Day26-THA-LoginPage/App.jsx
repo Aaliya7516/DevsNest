@@ -4,10 +4,12 @@ import { username, email } from './actions';
 import { useDispatch, useSelector } from 'react-redux';
 
 function Counter() {
-  const inReducer = useSelector((state) => {console.log(state.inputReducer);
-  return (
-    state.inputReducer
-  )});
+  // const inReducer = useSelector((state) => {console.log(state.inputReducer);
+  // return (
+  //   state.inputReducer
+  // )});
+
+  const inReducer = useSelector(state => state.inputReducer)
   const dispatch = useDispatch();
   return (
     <div className="App">
@@ -15,7 +17,8 @@ function Counter() {
       <input type="text" onChange={(e) => {dispatch(username(e))}} /><br />
       <input type="text" onChange={(e) => {dispatch(email(e))}} /><br />
     <div>
-      <p>{inReducer.name} : {inReducer.email}</p>
+      <p>Name : {inReducer.name}</p>
+      <p>Email : {inReducer.email}</p>
     </div>
     </div>
   );
