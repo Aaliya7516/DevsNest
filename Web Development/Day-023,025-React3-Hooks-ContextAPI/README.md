@@ -1,3 +1,5 @@
+### THA Deployed: https://tha23-24.netlify.app/
+<hr>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
