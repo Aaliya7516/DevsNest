@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("LandingPage.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.landing{
+    display: inline;
+    width: 80%;
+}
+#challanging{
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#startBtn{
+    margin: auto;
+    width: fit-content;
+}
+#start{
+    font-size: 25px;
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rosybrown;
+    border-radius: 50px;
+}
+.landing, .quizCard, .result{
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.quizCard{
+    display: none;
+    width: 80%;
+    max-width: 550px;
+    text-align: center;
+}
+#que{
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto auto 20px;
+    width: fit-content;
+    background-color: lightgoldenrodyellow;
+}
+#gif{
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 95%;
+}
+#que, .op{
+    padding: 10px 5%;
+    border-radius: 27px;    
+}
+.op{
+    background-color: ghostwhite;
+    margin: 5px;
+}
+#myScore{
+    margin: 20px 10px 5px;
+    background-color: white;
+    width: fit-content;
+    float: right;
+    padding: 10px;
+    border-radius: 40px;
+}
+.result{
+    display: none;
+    text-align: -webkit-center;
+}
+.fa-trophy{
+    font-size: 100px !important;
+    color: gold;
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 70px;
+}
+#result{
+    background: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 45px;
+}
+@media (max-width: 450px){
+    .quizCard, #que{
+        font-size: 12px;
+    }
+}
