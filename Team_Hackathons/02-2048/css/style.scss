@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	// border: 1px solid black;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	// font-family: "Press Start 2P", cursive;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.landing {
+	color: #ffffff;
+	height: calc(100vh - 60px);
+	overflow: hidden;
+	// background: linear-gradient(104.77deg, #ffffff 0%, #f18f88 0.01%, #1870ed 100%);
+	background-color: #1e2641;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.title {
+		width: 40%;
+		display: flex;
+		justify-content: space-between;
+		.box {
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			// padding: 20px;
+			// transform: rotateX(145deg);
+			// background: linear-gradient(113.35deg, #1870ed 0%, #333399 100%);
+			background-color: #ff9900;
+			box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+			border-radius: 10px;
+			text-align: center;
+			display: inline-block;
+
+			span {
+				font-size: 80px;
+				font-weight: bold;
+			}
+		}
+		@for $i from 1 through 4 {
+			.box:nth-child(#{$i}) {
+				animation-delay: $i * 0.1s;
+			}
+		}
+	}
+	.playbtn {
+		// background: linear-gradient(113.35deg, #1870ed 0%, #333399 100%);
+		background-color: #ff9900;
+
+		box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+		border-radius: 20px;
+		margin-top: 100px;
+		width: 40%;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+		transition: all 0.1s ease-in-out;
+		cursor: pointer;
+		animation-delay: 0.5s;
+		span {
+			font-size: 48px;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+	}
+	.playbtn:hover {
+		transform: scale(1.01);
+	}
+	.footer {
+		height: 60px;
+		line-height: 60px;
+		width: 100%;
+		background-color: #6a759b;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		i {
+			float: right;
+			cursor: pointer;
+			padding: 0px 20px;
+			color: #1e2641;
+			line-height: 60px;
+			font-size: 2.5rem;
+		}
+	}
+}
+
+.modes {
+	justify-content: space-evenly;
+	.playbtn {
+		height: 80px;
+		line-height: 80px;
+		margin-top: 0px;
+		span {
+			font-size: 2rem;
+		}
+	}
+	@for $i from 1 through 4 {
+		.playbtn:nth-child(#{$i}) {
+			animation-delay: 0.5s - $i * 0.1s;
+		}
+	}
+}
+// Call
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
+
+.landing .howTo {
+	width: 70px;
+	height: 55px;
+	position: absolute;
+	bottom: 75px;
+	left: 12px;
+	line-height: 59px;
+}
+
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
+
+.instruction .para {
+	margin: 80px 15% 45px;
+	text-align: center;
+}
+
+.instruction .title .box {
+	min-width: fit-content;
+	padding: 1px 60px;
+	height: 80px;
+	width: 100%;
+}
+
+.instruction .title .box span {
+	font-size: 40px;
+	line-height: 0px;
+}
+
+.instruction .howTo {
+	height: 50px;
+	padding: 4px;
+}
+
+.instruction .howTo .fa-arrow-left {
+	font-size: 40px;
+}
+
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
