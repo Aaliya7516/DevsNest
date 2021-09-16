@@ -1,5 +1,5 @@
 # Redis
-Redis is like session storage or local storage that stores a huge JSON object [json object is `key:"value"` pair]<br>
+Redis is like session storage or local storage that stores a huge object [object is `key:"value"` pair]<br>
 
 ## Installation of Redis
 
@@ -93,4 +93,12 @@ redis = {
     }
 }
 ```
-You can use the [ReJSON Redis](http://rejson.io/) Module and store the objects directly.
+
+[RedisJSON - a JSON data type for Redis](http://rejson.io/)
+
+<br>
+<hr><hr><hr><hr><hr>
+
+# PostgreSQL
+
+
