@@ -78,3 +78,19 @@ redis = {
     "num" : "3",
 }
 ```
+
+### Redis Hashes (objects) 
+
+![hashes](redis-object.PNG)
+
+```
+redis = {
+    "friends" : ["Ron", "Jon"],
+    "group" : ["Ron", "Jon"],
+    "num" : "3",
+    "person" : {
+        "name" : "Riya"
+    }
+}
+```
+You can use the [ReJSON Redis](http://rejson.io/) Module and store the objects directly.
