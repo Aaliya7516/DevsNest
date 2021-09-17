@@ -98,7 +98,23 @@ redis = {
 
 <br>
 <hr><hr><hr><hr><hr>
+<br>
 
 # PostgreSQL
 
+PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.<br>
 
+1. Case Sensitive
+2. For termination, `;` is *must*.
+3.  
+
+### PgSQL ROLES v/s USERS
+<br>
+
+![img](psql-roles-vs-user.PNG)
+
+![img](psql-create-drop.PNG)
+
+![img](psql-db-list.PNG)
+
+![img](psql-table.PNG)
