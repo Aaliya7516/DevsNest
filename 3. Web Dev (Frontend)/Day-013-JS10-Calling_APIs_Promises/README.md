@@ -4,5 +4,5 @@
 >HTML<br>
 >CSS<br>
 >JavaScript (calling APIs / Promises)<br>
-### Short demo video clip of Calculator <br>
+### Short demo video clip of Game <br>
 >![Live Demo](game.gif)
