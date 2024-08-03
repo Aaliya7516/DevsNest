@@ -81,7 +81,7 @@ export default function App() {
                   </div>
                 </>
               ) : (
-                <h2>Weather Not Found </h2>
+                <h2>Please enter valid place name </h2>
               )}
             </div>
           </div>
