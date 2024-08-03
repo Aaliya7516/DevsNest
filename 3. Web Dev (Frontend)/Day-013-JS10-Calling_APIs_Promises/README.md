@@ -1,5 +1,5 @@
 ### Live demo link<br>
->https://aaliya-haque.netlify.app 
+>https://harry-potter-quizzes.netlify.app
 ### Tech Stack <br>
 >HTML<br>
 >CSS<br>
