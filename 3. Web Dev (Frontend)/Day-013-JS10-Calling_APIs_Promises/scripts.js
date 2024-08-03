@@ -1,4 +1,4 @@
-fetch('https://api.jsonbin.io/b/5e3f0514f47af813bad11ac5')
+fetch('https://api.jsonbin.io/b/5e3f0514f47af813bad11ac5') // the API is missing, need to take out time to get some good API like this one :(
 .then(res => res.json())
 .then(res=> { data = res["questions"]}) //gives array of 20 questions
 
